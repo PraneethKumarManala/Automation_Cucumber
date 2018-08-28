@@ -1,0 +1,20 @@
+[
+  {
+    "source": "^User is already in login page$",
+    "steps": [
+      {
+        "name": "User is already in login page",
+        "aggregatedDurations": {
+          "average": 26.28121131,
+          "median": 26.28121131
+        },
+        "durations": [
+          {
+            "duration": 26.28121131,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/features/dealMap.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

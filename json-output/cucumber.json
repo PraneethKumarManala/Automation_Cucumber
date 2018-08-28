@@ -1,0 +1,288 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 475831,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 149591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.beforeFirst()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Free CRM create deal test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 95788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 125955,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177144325,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is an deal page",
+            "match": {
+              "location": "TagedHooks.user_is_an_deal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103874,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills the deal form",
+            "match": {
+              "location": "TagedHooks.user_fills_the_deal_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311311,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "deal is created",
+            "match": {
+              "location": "TagedHooks.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@First"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 236360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 146171,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.beforeSecond()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Free CRM create deal test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 111028,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 132798,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is an deal page",
+            "match": {
+              "location": "TagedHooks.user_is_an_deal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109472,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fills the deal form",
+            "match": {
+              "location": "TagedHooks.user_fills_the_deal_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111649,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "deal is created",
+            "match": {
+              "location": "TagedHooks.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Second"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 219256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 103252,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.beforeThird()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Free CRM create deal test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 139017,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 111338,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TagedHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120046,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is an deal page",
+            "match": {
+              "location": "TagedHooks.user_is_an_deal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118181,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user fills the deal form",
+            "match": {
+              "location": "TagedHooks.user_fills_the_deal_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121912,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "deal is created",
+            "match": {
+              "location": "TagedHooks.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM app test",
+    "description": "",
+    "id": "free-crm-app-test",
+    "keyword": "Feature",
+    "uri": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/features/tagedHooks.feature"
+  }
+]
