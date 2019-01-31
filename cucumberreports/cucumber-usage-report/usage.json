@@ -1,17 +1,71 @@
 [
   {
-    "source": "^User is already in login page$",
+    "source": "^enter valid url$",
     "steps": [
       {
-        "name": "User is already in login page",
+        "name": "enter valid url",
         "aggregatedDurations": {
-          "average": 26.28121131,
-          "median": 26.28121131
+          "average": 20.562743439,
+          "median": 20.562743439
         },
         "durations": [
           {
-            "duration": 26.28121131,
-            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/features/dealMap.feature:4"
+            "duration": 20.562743439,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on Signin button$",
+    "steps": [
+      {
+        "name": "click on Signin button",
+        "aggregatedDurations": {
+          "average": 5.082354496,
+          "median": 5.082354496
+        },
+        "durations": [
+          {
+            "duration": 5.082354496,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close the browser$",
+    "steps": [
+      {
+        "name": "close the browser",
+        "aggregatedDurations": {
+          "average": 0.631625189,
+          "median": 0.631625189
+        },
+        "durations": [
+          {
+            "duration": 0.631625189,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter userName and Password$",
+    "steps": [
+      {
+        "name": "enter userName and Password",
+        "aggregatedDurations": {
+          "average": 2.688536036,
+          "median": 2.688536036
+        },
+        "durations": [
+          {
+            "duration": 2.688536036,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:5"
           }
         ]
       }

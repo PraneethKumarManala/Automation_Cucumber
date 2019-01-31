@@ -1,0 +1,16 @@
+Feature: Login functionality of CRM application
+
+  Scenario Outline: verify login function     # CRM.feature:4
+    Given launch browser initially1
+    When enter correct url1
+    Then enter1 "<userName>" and "<password>"
+    Then close1 the browser
+
+    Examples: 
+
+  Scenario Outline: verify login function                         # CRM.feature:12
+    Given launch browser initially1                               # LoginCRM.launch_browser_initially1()
+    When enter correct url1                                       # LoginCRM.enter_correct_url1()
+    Then enter1 "praneethmanalachrome" and "praneethmanalachrome" # LoginCRM.enter1_and(String,String)
+    Then close1 the browser
+Feature: Login functionality of CRM application

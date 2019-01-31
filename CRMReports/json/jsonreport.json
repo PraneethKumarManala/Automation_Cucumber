@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifing CRM login",
+        "description": "",
+        "id": "verify-crm-application-login;verifing-crm-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18510963867,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter valid url",
+            "match": {
+              "location": "CRM.enter_valid_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2439196612,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter userName and Password",
+            "match": {
+              "location": "CRM.enter_userName_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8989926541,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Signin button",
+            "match": {
+              "location": "CRM.click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2103283594,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "CRM.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify CRM application login",
+    "description": "",
+    "id": "verify-crm-application-login",
+    "keyword": "Feature",
+    "uri": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^enter valid url$",
+    "steps": [
+      {
+        "name": "enter valid url",
+        "aggregatedDurations": {
+          "average": 18.510963867,
+          "median": 18.510963867
+        },
+        "durations": [
+          {
+            "duration": 18.510963867,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^click on Signin button$",
+    "steps": [
+      {
+        "name": "click on Signin button",
+        "aggregatedDurations": {
+          "average": 8.989926541,
+          "median": 8.989926541
+        },
+        "durations": [
+          {
+            "duration": 8.989926541,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^close the browser$",
+    "steps": [
+      {
+        "name": "close the browser",
+        "aggregatedDurations": {
+          "average": 2.103283594,
+          "median": 2.103283594
+        },
+        "durations": [
+          {
+            "duration": 2.103283594,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter userName and Password$",
+    "steps": [
+      {
+        "name": "enter userName and Password",
+        "aggregatedDurations": {
+          "average": 2.439196612,
+          "median": 2.439196612
+        },
+        "durations": [
+          {
+            "duration": 2.439196612,
+            "location": "/Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

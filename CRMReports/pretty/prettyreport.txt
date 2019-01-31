@@ -1,0 +1,7 @@
+Feature: Verify CRM application login
+
+  Scenario: Verifing CRM login       # /Users/pmanala/workspace_New/automationCucumber/src/test/java/featuresfiles/CRM.feature:3
+    Given enter valid url            # CRM.enter_valid_url()
+    When enter userName and Password # CRM.enter_userName_and_Password()
+    Then click on Signin button      # CRM.click_on_Signin_button()
+    Then close the browser           # CRM.close_the_browser()

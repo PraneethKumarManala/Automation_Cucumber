@@ -32,8 +32,7 @@ public class DealMapStepDefinition {
 	public void title_of_login_page_is_FreeCRM() throws Throwable {
 		String actual_title = driver.getTitle();
 		System.out.println("The title of the FreeCRM is: " + actual_title);
-
-		String exptect_title = "#1 Free CRM software in the cloud for sales and service";
+	    String exptect_title = "#1 Free CRM software in the cloud for sales and service";
 		Assert.assertEquals(exptect_title, actual_title);
 	}
 
@@ -86,7 +85,7 @@ public class DealMapStepDefinition {
 	  driver.findElement(By.id("probability")).sendKeys(ddata.get("probobility"));
 	  driver.findElement(By.id("commission")).sendKeys(ddata.get("commission"));
 	  
-	   driver.findElement(By.xpath(".//*[@value='Save']")).click();
+	    driver.findElement(By.xpath(".//*[@value='Save']")).click();
 		Actions action= new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath(".//*[@title='Deals']"))).build().perform();
 		driver.findElement(By.xpath(".//*[@title='New Deal']")).click();
